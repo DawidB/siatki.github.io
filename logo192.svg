@@ -1,0 +1,39 @@
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tło z gradientem -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c5f2d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a7c4d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="192" height="192" fill="url(#bgGradient)" rx="24"/>
+  
+  <!-- Główne słupki ogrodzenia -->
+  <rect x="24" y="48" width="12" height="96" fill="#e9ecef" rx="2"/>
+  <rect x="60" y="48" width="12" height="96" fill="#e9ecef" rx="2"/>
+  <rect x="96" y="48" width="12" height="96" fill="#e9ecef" rx="2"/>
+  <rect x="132" y="48" width="12" height="96" fill="#e9ecef" rx="2"/>
+  <rect x="168" y="48" width="12" height="96" fill="#e9ecef" rx="2"/>
+  
+  <!-- Poziome elementy siatki -->
+  <rect x="18" y="72" width="156" height="6" fill="#ffffff" opacity="0.9" rx="3"/>
+  <rect x="18" y="96" width="156" height="6" fill="#ffffff" opacity="0.9" rx="3"/>
+  <rect x="18" y="120" width="156" height="6" fill="#ffffff" opacity="0.9" rx="3"/>
+  
+  <!-- Pionowe elementy siatki (wypełnienie) -->
+  <rect x="42" y="60" width="6" height="72" fill="#ffffff" opacity="0.7" rx="3"/>
+  <rect x="78" y="60" width="6" height="72" fill="#ffffff" opacity="0.7" rx="3"/>
+  <rect x="114" y="60" width="6" height="72" fill="#ffffff" opacity="0.7" rx="3"/>
+  <rect x="150" y="60" width="6" height="72" fill="#ffffff" opacity="0.7" rx="3"/>
+  
+  <!-- Dodatkowe elementy dekoracyjne -->
+  <circle cx="30" cy="42" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="66" cy="42" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="102" cy="42" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="138" cy="42" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="174" cy="42" r="3" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Tekst/inicjały -->
+  <text x="96" y="170" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle" opacity="0.9">SO</text>
+</svg>

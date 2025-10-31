@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/siatki.github.io/static/css/main.38ce868a.css",
+    "main.js": "/siatki.github.io/static/js/main.df9ccb54.js",
+    "index.html": "/siatki.github.io/index.html",
+    "main.38ce868a.css.map": "/siatki.github.io/static/css/main.38ce868a.css.map",
+    "main.df9ccb54.js.map": "/siatki.github.io/static/js/main.df9ccb54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38ce868a.css",
+    "static/js/main.df9ccb54.js"
+  ]
+}
