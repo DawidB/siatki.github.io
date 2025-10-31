@@ -16,11 +16,20 @@
 .nav-brand .logo {
   text-decoration: none;
   color: #2c5f2d;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 32px;
+  height: 32px;
 }
 
 .nav-brand h2 {
   font-size: 1.8rem;
   font-weight: bold;
+  margin: 0;
 }
 
 .nav-menu {

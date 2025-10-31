@@ -36,6 +36,7 @@ const Header = () => {
       <div className='container'>
         <div className='nav-brand'>
           <Link to='/' className='logo'>
+            <img src='/logo.svg' alt='Siatki Ogrodzenia' className='logo-icon' />
             <h2>Siatki Ogrodzenia</h2>
           </Link>
         </div>
