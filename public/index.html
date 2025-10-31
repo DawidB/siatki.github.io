@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="%PUBLIC_URL%/favicon.svg" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.svg" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#2c5f2d" />
+    <meta
+      name="description"
+      content="Profesjonalne ogrodzenia działkowe i przemysłowe. Montaż, sprzedaż siatek, paneli ogrodzeniowych. Kalkulator kosztów online. 15 lat doświadczenia w całej Polsce."
+    />
+    <meta name="keywords" content="ogrodzenia, siatki ogrodzeniowe, panele ogrodzeniowe, montaż ogrodzeń, ogrodzenia działkowe, ogrodzenia przemysłowe, słupki betonowe, panele 3D, bramy ogrodzeniowe, furtki" />
+    <meta name="author" content="Siatki Ogrodzenia" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Siatki Ogrodzenia - Profesjonalne ogrodzenia działkowe i przemysłowe" />
+    <meta property="og:description" content="Specjalizujemy się w montażu ogrodzeń. Oferujemy siatki, panele 3D, słupki betonowe i metalowe. Bezpłatna wycena online." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://DawidB.github.io/siatki.github.io/" />
+    <meta property="og:image" content="https://DawidB.github.io/siatki.github.io/logo192.svg" />
+    <meta property="og:site_name" content="Siatki Ogrodzenia" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Siatki Ogrodzenia - Profesjonalne ogrodzenia" />
+    <meta name="twitter:description" content="Montaż ogrodzeń działkowych i przemysłowych w całej Polsce. Kalkulator kosztów online." />
+    <meta name="twitter:image" content="https://DawidB.github.io/siatki.github.io/logo192.svg" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Siatki Ogrodzenia",
+      "description": "Profesjonalne ogrodzenia działkowe i przemysłowe",
+      "image": "https://DawidB.github.io/siatki.github.io/logo192.svg",
+      "logo": "https://DawidB.github.io/siatki.github.io/logo.svg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ul. Ogrodzeniowa 123",
+        "addressLocality": "Warszawa",
+        "postalCode": "00-001",
+        "addressCountry": "PL"
+      },
+      "telephone": "+48123456789",
+      "email": "kontakt@siatki-ogrodzenia.pl",
+      "url": "https://DawidB.github.io/siatki.github.io/",
+      "serviceArea": "Polska",
+      "priceRange": "$$"
+    }
+    </script>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Siatki Ogrodzenia - Profesjonalne ogrodzenia działkowe i przemysłowe</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
