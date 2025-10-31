@@ -42,7 +42,10 @@ Celem projektu jest stworzenie strony firmy zajmujuącej się zakładaniem ogrod
 - Kalkulator będzie zawierał obwód działki w metrach, ilość punktów narożnych, rodzaj słupków (metalowe, drewniane, betonowe), rozstaw słupków, rodzaj wypełnienia (siatka, panele, deski) oraz dodatkowe opcje (brama, furtka), województwo (dla określenia kosztów transportu)
 - dane firmy i mapa dojazdu do firmy na stronie kontaktowej
 - dodaj sekcję z galerią przykładowych realizacji ogrodzeń
-
+- dodaj formularz kontaktowy umożliwiający szybki kontakt z firmą
+- dodaj sekcję z opiniami klientów
+- dodaj sekcję z wartościami firmy i misją
+- dodaj bloga z poradami dotyczącymi ogrodzeń i konserwacji
 
 ---
 ## ⚖️ Out of Scope
