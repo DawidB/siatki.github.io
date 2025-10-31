@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Testimonials from '../components/Testimonials'
 import '../styles/Home.css'
 
 const Home = () => {
@@ -87,6 +88,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Testimonials Section */}
+      <Testimonials />
 
       {/* CTA Section */}
       <section className='section cta-section'>

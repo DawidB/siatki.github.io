@@ -17,16 +17,20 @@ const Header = () => {
   const menuItems = {
     pl: {
       home: 'Strona Główna',
+      about: 'O Nas',
       services: 'Usługi',
       calculator: 'Kalkulator',
       gallery: 'Galeria',
+      blog: 'Blog',
       contact: 'Kontakt',
     },
     en: {
       home: 'Home',
+      about: 'About Us',
       services: 'Services',
       calculator: 'Calculator',
       gallery: 'Gallery',
+      blog: 'Blog',
       contact: 'Contact',
     },
   }
@@ -49,6 +53,11 @@ const Header = () => {
               </Link>
             </li>
             <li>
+              <Link to='/about' onClick={() => setIsMenuOpen(false)}>
+                {menuItems[language].about}
+              </Link>
+            </li>
+            <li>
               <Link to='/services' onClick={() => setIsMenuOpen(false)}>
                 {menuItems[language].services}
               </Link>
@@ -61,6 +70,11 @@ const Header = () => {
             <li>
               <Link to='/gallery' onClick={() => setIsMenuOpen(false)}>
                 {menuItems[language].gallery}
+              </Link>
+            </li>
+            <li>
+              <Link to='/blog' onClick={() => setIsMenuOpen(false)}>
+                {menuItems[language].blog}
               </Link>
             </li>
             <li>
